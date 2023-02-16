@@ -10,7 +10,6 @@ import  Manageusers  from './app/manageusers/manageusers';
 import  Managecontrol  from './app/managecontrol/managecontrol';
 import  User  from './app/user/user';
 import  ProfilesettingsComponent  from './app/user/profilesettings/profilesettings';
-import { lazy } from 'react';
 import Template from "./app/template/template";
 
 let routes: any = [
@@ -26,7 +25,7 @@ let routes: any = [
 { path: '/managecontrol', component: Managecontrol },
 { path: '/usermanagement', component: User },
 { path: '/profile', component: ProfilesettingsComponent },
-{ path: "", component: Template }
+          { path: "/", component: Template, }
 
 ];
 
